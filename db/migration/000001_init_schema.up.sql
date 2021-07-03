@@ -40,3 +40,5 @@ CREATE INDEX ON "transfers" ("from_account_id", "to_account_id");
 COMMENT ON COLUMN "entries"."amount" IS 'может быть отрицательным или положительным';
 
 COMMENT ON COLUMN "transfers"."amount" IS 'должен быть положительным';
+
+
